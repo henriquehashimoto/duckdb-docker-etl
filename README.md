@@ -1,1 +1,12 @@
-# duckdb-docker-etl
+# Objective
+
+
+
+# Technologies used:
+
+- Python
+- DuckDB
+- Poetry
+- Streamlit
+
+
