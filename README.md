@@ -1,24 +1,23 @@
 # Objective
 
-Create a compete ETL process, reading different types of files from cloud, processing and trasnforming, and loading into a database.
+Create a complete ETL process, reading from a Google Drive, processing and trasnforming, then loading into a database on cloud.
 
 
 
 # Data Stack:
 
+- Google Drive
 - Python
 - DuckDB
 - Poetry
-- Docker
-- Streamlit
 - DBeaver
+- Postgress Server instance on Render.com 
 
-## Libs:
 
-- gdown
-- duckdb
-- streamlit
-- psycopg2-binary
-- python-dotenv
-- psycopg2
-- sqlalchemy
+# ETL Process:
+![etl-process](etl.png)
+
+
+## Execution
+
+- In order to execute this process, you only need to execute the "pipeline_00.py" file
